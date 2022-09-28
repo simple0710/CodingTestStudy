@@ -1,7 +1,7 @@
 import sys
 input = sys.stdin.readline
 
-#덕의 개수와 요청한 떡의 길이
+#떡의 개수와 요청한 떡의 길이
 n, m = map(int, input().split())
 # 각 떡의 개별 높이 정보를 입력받기
 data = list(map(int, input().rstrip().split()))
